@@ -1,0 +1,40 @@
+.ng2-menu-item {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+
+    padding: 0 1.25rem;
+    background: #fff;
+    color: #444;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 400;
+    transition: background 0.2s;
+    letter-spacing: 0.03em;
+    height: 48px;
+    line-height: 48px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.ng2-menu-item--selected {
+    background: #f9f9f9;
+    outline: 0;
+}
+
+.ng2-menu-item:focus {
+    outline: 0;
+}
+
+.ng2-menu-item:active {
+    background: #eee;
+}
+
+.ng2-menu-item [ng2-menu-item-icon] {
+    vertical-align: bottom;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.54);
+}
