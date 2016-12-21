@@ -17,7 +17,7 @@ import * as import8 from '@angular/core/src/change_detection/constants';
 import * as import9 from '@angular/core/src/linker/component_factory';
 import * as import10 from '../dropdown/ng2-dropdown';
 import * as import11 from '@angular/core/src/linker/element_ref';
-import * as import12 from './stylescss.shim.ngstyle';
+import * as import12 from './style.css.shim.ngstyle';
 import * as import13 from '@angular/core/src/animation/animation_transition';
 import * as import14 from '@angular/core/src/animation/animation_sequence_player';
 import * as import15 from '@angular/core/src/animation/animation_styles';

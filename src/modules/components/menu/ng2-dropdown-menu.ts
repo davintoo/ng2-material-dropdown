@@ -17,7 +17,7 @@ import { Ng2Dropdown } from '../dropdown/ng2-dropdown';
 
 @Component({
     selector: 'ng2-dropdown-menu',
-    styleUrls: ['./stylescss'],
+    styleUrls: ['./style.css'],
     templateUrl: './template.html',
     animations: animations
 })
